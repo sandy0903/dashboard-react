@@ -1,0 +1,79 @@
+.main-container .left-navbar{
+    padding-left:4.86%;
+    margin-right:2.083%;
+}
+.left-navbar .user-info{
+    text-align: center;
+    position: relative;
+}
+.left-navbar .user-info img{
+    width:170px;
+    height:170px;
+    border:2px solid var(--primary-color);
+    border-radius: 50%;
+    
+}
+.left-navbar .user-info span{
+    width: 50px;
+    height: 50px;
+    background-color: #E1E5F1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    top: 125px;
+    right: 18px;
+    
+}
+.left-navbar .user-info svg{
+    width:26px;
+    height:26px;
+}
+.left-navbar .user-info .user-name{
+    color:var(--primary-color);
+    font-size:2rem;
+    line-height:2.8rem;
+    font-weight: 700;
+    padding-top:10px;
+   
+}
+.left-navbar .user-info .title{
+    font-size:1.3rem;
+    font-weight:600;
+    line-height:2.5rem;
+    color:#676E86;
+}
+.left-navbar .user-info .private-info{
+    width:193px;
+    border:1px solid #BAD4FF;
+    border-radius:25px;
+
+    padding:13px 0px;
+    margin:15px 0 20px;
+
+    font-size:1.8rem;
+    line-height:27px;
+    font-weight:700;
+    color:#363E57;
+}
+.left-navbar .user-list{
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.05);
+    padding:20px 10px;
+    border-radius:10px;
+}
+.left-navbar .user-list .btn{
+    width:100%;
+    padding:9px 0;
+    padding-left:15px;
+    border-radius:5px;
+    text-align: left;
+    font-weight: 600;
+    font-size:1.4rem;
+    line-height:19.6px;
+    color:#363E57;
+    
+}
+.left-navbar .user-list .btn:not(:last-child){
+    margin-bottom:10px;
+}

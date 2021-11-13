@@ -1,0 +1,194 @@
+.right-content h1{
+    background-color:var(--primary-color);
+    max-width:1078px;
+    height:140px;
+    color:#fff;
+    font-size:5rem;
+    line-height:65px;
+   
+   
+    padding-left:40px;
+    padding-top:55px;
+    padding-bottom:20px;
+    border-radius:10px;
+}
+.right-content .exam-schedual{
+    margin-top:42px;
+    margin-left:-12px;
+    padding-left:42px;
+    padding-right:17px;
+    border:1px solid var(--grey-color);
+    border-radius:10px;
+    width:100%;
+    max-width:1078px;
+
+}
+.exam-schedual .search-exam{
+    line-height:35px;
+    width:41%;
+    margin-top:40px;
+    margin-bottom:16px;
+    padding:15px 14px;
+    padding-left:30px;
+    border:1px solid var(--grey-color);
+    border-radius:10px;
+    color:#676E86;
+    background-color:#f7f7f7;
+    font-size:1.8rem;
+    line-height:25px;
+    float:right;
+}
+
+.exam-schedual .search-exam input{
+    border:none;
+    font-size:1.8rem;
+    line-height:25px;
+    color:#676E86;
+    background-color:#f7f7f7;
+    padding-left:15px;
+}
+.exam-schedual .exam-list{
+    clear: both;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+.exam-schedual .exam-list .row{
+    width:100%;
+    margin-top:30px;
+   
+    
+
+}
+.exam-list .row .exam-item{
+    width:calc(100%/3);
+    height:397px;
+    border-radius:10px;
+    padding:0 14px;
+    
+    position: relative;
+}
+
+.exam-item .item-link{
+    position: relative;
+    width:100%;
+    height:203px;
+    background-image: url("../img/list-item.jpg");
+    background-position: center center;
+    text-align:center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top:35px;
+    font-size:4.6rem;
+    color:#fff;
+
+}
+.exam-item .item-link .btn{
+    display:block;
+    width:90%;
+    margin:auto;
+    padding:10px 0;
+    margin-top:11px;
+    font-size:1.8rem;
+    line-height:25px;
+    border-radius:10px;
+    box-shadow:2px 6px 30px rgba(78, 82, 92,0.1)
+    
+}
+
+.active-time:before{
+    content:"";   
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background-color:#000;
+    opacity: 0.7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    
+}
+.item-link .btn,
+.item-link svg,
+.exam-item .countdown-title,
+.exam-item .countdown-timer,
+.exam-item .countdown-result,
+.exam-item .title-result{
+    position: relative;
+    z-index:2;
+}
+.exam-item .countdown-title,
+.exam-item .countdown-timer{
+    color:#FF9E0D;
+    font-weight:700;
+}
+.exam-item .countdown-title,
+.exam-item .title-result{
+    font-size:1.4rem;
+
+}
+.exam-item .countdown-timer,
+.exam-item .countdown-result{
+    font-size:2.4rem;
+
+}
+.exam-item .countdown-result,
+.exam-item .title-result{
+    color:#fff;
+    font-weight:700;
+    
+
+}
+
+.exam-item .item-info{
+    padding-top:30px;
+    padding-bottom:20px; 
+    padding-left:16px;
+    padding-right:16px;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 18px rgba(0,0,0,0.1);
+}
+.exam-item .item-info .title{
+    color:#00BF2A;
+    font-size:2rem;
+    line-height:2.8rem;
+    font-weight: 700;
+}
+.exam-item .item-info .time,
+.exam-item .item-info .questions{
+    font-size:1.4rem;
+    line-height:19px;
+    padding-top:10px;
+    color:#676E86;
+    font-weight:600;
+}
+.exam-item .item-info .questions{
+    font-size:1.8rem;
+    padding-top:1px;
+    padding-bottom:1px;
+    line-height:25px;
+    font-weight:600;
+    color:#4E555C;
+    
+    
+}
+.item-info .questions p svg{
+    margin-right:5px;
+}
+.right-content h2{
+    font-size:3.6rem;
+    color:var(--primary-color);
+    padding-top:8rem;
+    font-weight:700;
+    
+} 
+.right-content .primary-line{
+    width:120px;
+    margin-top:10px;
+}
+.right-content table{
+    margin:40px 0 80px;
+}
