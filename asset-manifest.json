@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dashboard-react/static/css/main.d036e361.chunk.css",
+    "main.js": "/dashboard-react/static/js/main.484f4011.chunk.js",
+    "main.js.map": "/dashboard-react/static/js/main.484f4011.chunk.js.map",
+    "runtime-main.js": "/dashboard-react/static/js/runtime-main.5866b9c3.js",
+    "runtime-main.js.map": "/dashboard-react/static/js/runtime-main.5866b9c3.js.map",
+    "static/js/2.e4b144eb.chunk.js": "/dashboard-react/static/js/2.e4b144eb.chunk.js",
+    "static/js/2.e4b144eb.chunk.js.map": "/dashboard-react/static/js/2.e4b144eb.chunk.js.map",
+    "index.html": "/dashboard-react/index.html",
+    "static/css/main.d036e361.chunk.css.map": "/dashboard-react/static/css/main.d036e361.chunk.css.map",
+    "static/js/2.e4b144eb.chunk.js.LICENSE.txt": "/dashboard-react/static/js/2.e4b144eb.chunk.js.LICENSE.txt",
+    "static/media/Course.css": "/dashboard-react/static/media/list-item.30d634c3.jpg",
+    "static/media/result-fail.afd10fa4.png": "/dashboard-react/static/media/result-fail.afd10fa4.png",
+    "static/media/success.8ef99d0d.wav": "/dashboard-react/static/media/success.8ef99d0d.wav",
+    "static/media/user.9dc92b0a.png": "/dashboard-react/static/media/user.9dc92b0a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5866b9c3.js",
+    "static/js/2.e4b144eb.chunk.js",
+    "static/css/main.d036e361.chunk.css",
+    "static/js/main.484f4011.chunk.js"
+  ]
+}
